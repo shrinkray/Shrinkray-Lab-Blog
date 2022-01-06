@@ -1,10 +1,11 @@
-import {client} from '$lib/graphql-client';
-import {gql} from 'graphql-request'
+import { client } from '$lib/graphql-client'
+import { gql } from 'graphql-request'
 
 export const get = async () => {
 	try {
-		const query =gql`query Posts {
-        posts {
+		const query =gql`
+				query Posts {
+        	posts {
             title
             slug
             date
@@ -14,17 +15,18 @@ export const get = async () => {
                 url
             }
         }
-    }`
-		const posts = await client.request(query);
+    }
+		`
+		const { posts } = await client.request(query);
 		
 		return {
 			status: 200,
-			body: {posts}
+			body: { posts }
 		}
 	} catch (error) {
 		
 		return {
-			'status': 500,
-			'body': {error: 'There was a server error'}}
+			status: 500,
+			body: { error: 'There was a server error' }}
 	}
 }
