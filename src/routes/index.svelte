@@ -29,5 +29,24 @@
 				alt={`Cover image for ${title}`}
 			/>
     </figure>
+		<div class='card-body'>
+			<h2 class='text-2xl font-bold'>{title}</h2>
+			<p>{excerpt}</p>
+			<div class='flex justify-center mt-5 space-x-2'>
+				{#each tags as tag}
+					<span
+						class='badge badge-primary text-white'>
+						{tag}
+					</span>
+				{/each}
+			</div>
+			<div class='justify-center card-actions'>
+				<a
+					class='btn btn-outline btn-primary'
+					href={`/posts/${slug}`}>
+					Read 👉🏼
+				</a>
+			</div>
+		</div>
   </div>
 {/each}
