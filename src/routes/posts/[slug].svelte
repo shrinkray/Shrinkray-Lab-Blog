@@ -71,3 +71,7 @@
     {/if}
   </div>
 </div>
+
+<article class='prose'>
+  {@html html}
+</article>
