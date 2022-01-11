@@ -2,7 +2,7 @@
   export let pages
 </script>
 
-<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+<div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
   <div class="flex-none px-2 mx-2">
    <span class="text-lg font-bold"><a href={`/`} class='btn btn-ghost btn-sm rounded-btn'>
             Shrinkray Labs
