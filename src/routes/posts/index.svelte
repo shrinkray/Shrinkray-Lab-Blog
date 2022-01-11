@@ -36,7 +36,7 @@
 
 <h1 class='text-4xl mb-10 font-extrabold'>Shrinkray Labs Blog</h1>
 
-<div class='grid grid-flow-row-dense grid-cols-3 gap-4'>
+<div class='grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
 {#each posts as { title, slug, excerpt, coverImage, tags }}
   <div class="card text-center shadow-2xl mb-20">
     <figure class="px-10 pt-10">
