@@ -10,7 +10,7 @@
           </a></span>
   </div>
   <div class="flex-1 px-2 mx-2">
-    <div class="items-stretch ">
+    <div class="flex items-stretch ">
       <a class="btn btn-ghost btn-sm rounded-btn"
          href={`/`}>Home</a>
       
