@@ -20,6 +20,7 @@
 		"env-cmd": "^10.1.0",
 		"graphql": "^16.2.0",
 		"graphql-request": "^3.7.0",
+		"postcss": "^8.4.5",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
 		"svelte": "^3.44.3",
@@ -28,7 +29,5 @@
 		"theme-change": "^2.0.2"
 	},
 	"type": "module",
-	"dependencies": {
-		"postcss": "^8.4.5"
-	}
+	"dependencies": {}
 }
