@@ -74,7 +74,7 @@
   </div>
 </div>
 
-<article class='prose'>
+<article class='prose mb-12'>
   {@html html}
 </article>
     </div>
