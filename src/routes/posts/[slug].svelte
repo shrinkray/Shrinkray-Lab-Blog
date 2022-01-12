@@ -31,7 +31,9 @@
   <title>Shrinkray Labs Blog | </title>
 </svelte:head>
 
-<div class="sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
+<div class='grid grid-flow-row-dense grid-cols-3 gap-4'>
+  <div class='col-span-2 px-4'>
+<div class="max-w-5xl sm:-mx-5 md:-mx-10 lg:-mx-20 xl:-mx-38 mb-5">
   <img
     src={post.coverImage.url}
     alt={`Cover image for ${title}`}
@@ -75,3 +77,8 @@
 <article class='prose'>
   {@html html}
 </article>
+    </div>
+  <div class='col-span-1 px-8'>
+    something
+  </div>
+  </div>
