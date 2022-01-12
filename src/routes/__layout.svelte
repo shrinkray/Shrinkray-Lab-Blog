@@ -12,7 +12,7 @@
 </script>
 
 <script>
-	import Nav from '$lib/Nav.svelte'
+	import Nav from '$lib/nav.svelte'
 	import { onMount } from 'svelte'
 	import { themeChange } from 'theme-change'
 	import '../app.css'
