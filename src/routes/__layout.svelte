@@ -27,7 +27,7 @@
 
 <Nav {pages} />
 
-<main class='container max-w-7xl mx-auto px-4'>
+<main class='container max-w-7xl mx-auto px-4 mb-12'>
 	<slot />
 </main>
 <Footer {pages} />
