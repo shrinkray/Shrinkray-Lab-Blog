@@ -18,7 +18,7 @@
   <title>Shrinkray Labs Blog | Welcome</title>
 </svelte:head>
 
-<h1 class='text-4xl mb-10 font-extrabold'>Shrinkray Labs Blog</h1>
+<h1 class='text-4xl mb-10 font-extrabold'><span class="text-red-700 text-5xl font-extrabold italic mr-1 ">S</span>hrinkray Labs Blog</h1>
 
 <div class='max-w-xl mx-auto'>
 
