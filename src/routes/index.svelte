@@ -21,7 +21,7 @@
 <h1 class='text-4xl mb-10 font-extrabold'><span class="text-red-700 text-5xl font-extrabold italic mr-1 ">S</span>hrinkray Labs Blog</h1>
 
 <div class='max-w-xl mx-auto'>
-
+<p class="text-lg">This is an experimental blog design built in <a class="mix-blend-normal bg-white-600" href="https://kit.svelte.dev/" >Sveltekit</a>. This is pulling demo post and page content from GraphCMS. Page layout from <a href="https://tailwindcss.com/">Tailwind 3.x</a> and theme switcher from <a href="https://daisyui.com">DaisyUI</a>. </p>
 	{#each posts as { title, slug, excerpt, coverImage, tags }}
 		<div class="card text-center shadow-2xl mb-20">
 			<figure class="px-10 pt-10">
