@@ -1,11 +1,15 @@
-.DS_Store
+# application
 node_modules
 /build
 /.svelte-kit
 /package
 .env
-.env.example
 !.env.example
 
 .vercel
 .vercel_build_output
+
+# macOS-specific files
+.DS_Store
+.idea/
+.vscode/
