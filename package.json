@@ -1,6 +1,6 @@
 {
 	"name": "shrinkraylab",
-	"version": "0.0.1",
+	"version": "0.1.1",
 	"license": "UNLICENSED",
 	"scripts": {
 		"dev": "env-cmd svelte-kit dev",
@@ -29,5 +29,7 @@
 		"theme-change": "^2.0.2"
 	},
 	"type": "module",
-	"dependencies": {}
+	"dependencies": {
+		"dotenv": "^16.0.3"
+	}
 }
